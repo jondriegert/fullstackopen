@@ -1,0 +1,14 @@
+title Exercise 0.6
+
+note over browser:
+user enters data into
+new note text box and
+clicks "Save" button
+browser executes the event handler
+browser creates new note, adds it
+to list, and rerenders page before
+communicating with server
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: HTTP status code 201 created
