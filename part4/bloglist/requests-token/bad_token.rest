@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ
+
+{
+    "title": "Entry 3 with bad token",
+    "author": "Fullstack Student with bad token",
+    "url": "http://google.com/token",
+    "likes": 5
+
+}
