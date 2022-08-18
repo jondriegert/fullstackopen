@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvbiIsImlkIjoiNjJlNTg4YTJlM2M0NjhhOWViODA3MmIzIiwiaWF0IjoxNjU5MjE1ODU4fQ.ynGr_we_aVCFf80x2OQssGUf0Rr5U4Vf5lHknuEEfEI
+
+{
+    "title": "I'm stressed with token",
+    "author": "Joe Biden with token",
+    "url": "http://whitehouse.gov/token",
+    "likes": 1
+
+}
